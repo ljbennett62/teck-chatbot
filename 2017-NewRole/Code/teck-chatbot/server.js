@@ -51,7 +51,7 @@ var dbCustomers = cloudant.db.use('customers');
 
 // JTE TODO read these from config/CF_VARS
 var RISK_ANALYTICS_URL = 'https://fss-analytics.mybluemix.net/api/v1/scenario/instrument';  //STAGING 'https://fss-analytics.stage1.mybluemix.net/api/v1/scenario/instrument';
-var RISK_ANALYTICS_TOKEN = = '<....>';
+var RISK_ANALYTICS_TOKEN = '<....>';
 var ANALYTICS_SCENARIO_FILENAME = './conditional_out.csv'; // the only analytics scenario supported today
 
 // --- Other config items
